@@ -1,0 +1,127 @@
+/* .body{
+    background-color: var(--bg--main);
+} */
+*{
+    
+    padding: 0px;
+    margin: 0px;
+    background-color: var(--bg--main);
+    border: 0px !important;
+}
+:root{
+    --bg--main: #000000;
+}
+
+.background-color{
+    background-color: var(--bg--main) !important;
+}
+
+.border-5px{
+    border-radius: 5px !important;
+}
+.font-property-name{
+    font-size: 50px;
+    color: white;
+}
+.nav-link{
+    text-decoration: none;
+    margin-left: 60px;
+    margin-right: 60px;
+    font-size: 20px;
+    color: white;
+    transition-duration: 0.3s;
+}
+.padding-top{
+    padding-top: 10px;
+}
+.nav-link:hover{
+    color: rgb(196, 195, 195)  !important;
+    text-decoration: underline  !important;
+    text-decoration-color: red  !important;
+
+}
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    
+}
+.padding-15px{
+    padding-top: 25px;
+}
+.flex-container{
+    
+    display: flex;
+    padding-left: 25px;
+    flex-direction: row;
+  
+    
+    
+}
+.member-pic-size{
+    height: 300px;
+    width: 300px;
+}
+.margin-15px{
+    margin-left: 105px;
+}
+.margin-left-65px{
+    margin-left: 75px;
+}
+#officers-heading{
+    margin-top: 55px;
+    font-size: 30px;
+    border: 2px solid white;
+    margin-bottom: 25px;
+    
+}
+#officers-text{
+    border: 2px solid white !important;
+    padding: 10px;
+}
+#officerpic{
+    transition-duration: 0.4s;
+}
+#officerpic:hover{
+    position: relative;
+    top: -4px;
+
+}
+.businesscolumn{
+    margin: 15px;
+}
+.businesscolumn img{
+    display: flex;
+    width: 300px;
+    height: 300px;
+    transition: 0.5s;
+    backface-visibility: hidden;
+    white-space: nowrap;
+}
+
+.businesscolumn:hover img{
+    
+    cursor: pointer;
+    opacity: 0.3;
+}
+.busitext{
+    position: relative;
+    color:white;
+    top: -170px;
+    left: 80px;
+    height: 25px;
+    font-size: 18px;
+    text-align: center;
+    width: 120px;
+    border: 2px transparent black;
+    border-radius: 5px;
+    background-color: rgb(0, 0, 0);
+    transition: 0.5s ease;
+    opacity: 0;
+
+}
+.businesscolumn:hover .busitext{
+    opacity: 1;
+    
+}
